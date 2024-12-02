@@ -1,5 +1,8 @@
 .home-container{
-   justify-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 
 hr{
