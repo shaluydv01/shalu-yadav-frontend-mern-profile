@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25vw 5vw 4vw 5vw;
+    position: relative;
+    padding-top: 15%;
 }
 
 .typing_container h1{
@@ -13,9 +14,10 @@
     color: orangered;
 }
 
-@media (max-width: 412px){
-    .typing_container h1{
-        font-size: 1rem;
+
+@media (max-width: 712px){
+    .typing_container{
+        margin-top: 8%;
     }
 }
 
