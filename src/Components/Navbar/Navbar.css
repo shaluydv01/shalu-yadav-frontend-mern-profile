@@ -2,6 +2,10 @@
     width: 100%;
     background: linear-gradient(to right, orangered, purple);
     padding: 2vw 5vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .navbar-container nav{
@@ -52,6 +56,10 @@
 }
 
 @media (max-width: 768px) {
+    .navbar-container{
+        padding: 5vw;
+    }
+
     .menu-icon-div{
         display: flex;
     }
