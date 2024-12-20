@@ -1,7 +1,7 @@
 import React from "react";
 import "./TextImage.css";
 import resume from "/src/assets/Resume/ShaluYadav_InternshalaResume.pdf";
-import shalu from "/src/assets/ProjectsImage/shalu.png"
+import shalu from "/src/assets/ProjectsImage/shalu(1)(1).png"
 
 const TextImage = () => {
   return (
